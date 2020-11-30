@@ -1,4 +1,5 @@
 <?php
+
 /**
  * General Configuration
  *
@@ -11,48 +12,49 @@
 use craft\helpers\App;
 
 return [
-    // Global settings
-    '*' => [
-        // Default Week Start Day (0 = Sunday, 1 = Monday...)
-        'defaultWeekStartDay' => 1,
+  // Global settings
+  '*' => [
+    // Default Week Start Day (0 = Sunday, 1 = Monday...)
+    'defaultWeekStartDay' => 1,
 
-        // Whether generated URLs should omit "index.php"
-        'omitScriptNameInUrls' => true,
+    // Whether generated URLs should omit "index.php"
+    'omitScriptNameInUrls' => true,
 
-        // Control panel trigger word
-        'cpTrigger' => 'admin',
+    // Control panel trigger word
+    'cpTrigger' => 'admin',
 
-        // The secure key Craft will use for hashing and encrypting data
-        'securityKey' => App::env('SECURITY_KEY'),
-    ],
+    // The secure key Craft will use for hashing and encrypting data
+    'securityKey' => App::env('SECURITY_KEY'),
+    'headlessMode' => true,
+  ],
 
-    // Dev environment settings
-    'dev' => [
-        // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
-        'devMode' => true,
+  // Dev environment settings
+  'dev' => [
+    // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
+    'devMode' => true,
 
-        // Prevent crawlers from indexing pages and following links
-        'disallowRobots' => true,
-    ],
+    // Prevent crawlers from indexing pages and following links
+    'disallowRobots' => true,
+  ],
 
-    // Staging environment settings
-    'staging' => [
-        // Set this to `false` to prevent administrative changes from being made on Staging
-        'allowAdminChanges' => true,
+  // Staging environment settings
+  'staging' => [
+    // Set this to `false` to prevent administrative changes from being made on Staging
+    'allowAdminChanges' => true,
 
-        // Don’t allow updates on Staging
-        'allowUpdates' => false,
+    // Don’t allow updates on Staging
+    'allowUpdates' => false,
 
-        // Prevent crawlers from indexing pages and following links
-        'disallowRobots' => true,
-    ],
+    // Prevent crawlers from indexing pages and following links
+    'disallowRobots' => true,
+  ],
 
-    // Production environment settings
-    'production' => [
-        // Set this to `false` to prevent administrative changes from being made on Production
-        'allowAdminChanges' => true,
+  // Production environment settings
+  'production' => [
+    // Set this to `false` to prevent administrative changes from being made on Production
+    'allowAdminChanges' => true,
 
-        // Don’t allow updates on Production
-        'allowUpdates' => false,
-    ],
+    // Don’t allow updates on Production
+    'allowUpdates' => false,
+  ],
 ];
