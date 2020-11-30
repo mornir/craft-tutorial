@@ -1,0 +1,11 @@
+/.env
+/.idea
+/vendor
+.DS_Store
+
+# Craft Files
+/storage/*
+/web/uploads
+
+# App Files
+public/uploads/*
