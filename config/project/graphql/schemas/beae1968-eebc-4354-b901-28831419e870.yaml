@@ -1,2 +1,11 @@
 isPublic: true
 name: 'Public Schema'
+scope:
+  - 'sections.f1f12186-9010-4aba-bd69-6f963487dd72:read'
+  - 'entrytypes.b2577257-85df-4fe0-a102-a5a0d678732b:read'
+  - 'sections.f9704719-3e8b-4054-970d-a55f40132555:read'
+  - 'entrytypes.9dfb399c-8b3a-499d-8820-654a270dc653:read'
+  - 'volumes.f7f50a32-0a99-41a0-a955-200cc8a22218:read'
+  - 'volumes.29dd476d-9cae-494d-85fc-7d980bb8792f:read'
+  - 'globalsets.91572946-1dcc-450f-b743-91ba73a51db5:read'
+  - 'categorygroups.24ff8f21-eb0d-45ee-a898-f07bc145edfc:read'
