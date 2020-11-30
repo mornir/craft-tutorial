@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 9c9b7bc0-da32-4a87-8749-d604b14e4fb8
+handle: postContent
+instructions: ''
+name: 'Post Content'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_postcontent}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
