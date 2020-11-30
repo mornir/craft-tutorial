@@ -1,4 +1,4 @@
-dateModified: 1606736114
+dateModified: 1606736562
 email:
   fromEmail: jeromepott@hotmail.com
   fromName: Blog
@@ -9,7 +9,7 @@ plugins:
     enabled: true
     schemaVersion: 2.3.0
 system:
-  edition: solo
+  edition: pro
   live: true
   name: Blog
   schemaVersion: 3.5.13
